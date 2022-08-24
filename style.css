@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    width: 100%;
+    position: fixed;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+header nav ul{
+    margin-left: 520px;
+}
+header nav div h1{
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 100px;
+    top: 22px;
+    color: #fff;
+    font-size: 32px;
+}
+.home .container {
+        background: url(./images/lilya.jpg);
+        width: 100%;
+        height: 100vh;
+}
+
+.home .container h1{
+    color: #E0FF65;
+    font-size: 4.4rem;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+.home .container p{
+    color: #ffffff;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 440px;
+    left: 100px;
+
+}
+.home .container h3{
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 405px;
+    left: 100px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.home .container a{
+    /* height: 30px;
+    width: 180px; */
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px; 
+    text-decoration: none;
+    padding-bottom: 1rem;
+    background: #E0FF65;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 520px;
+    left: 100px;
+    border-radius: 8px;
+
+}
+
+.home .container .icon{
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: 190px;
+}
+.home .container .icon i{
+    position: static;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    display: grid;
+    margin-top: 55px;
+}
